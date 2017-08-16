@@ -20,6 +20,7 @@
 #import "AppDelegate.h"
 
 
+
 static GLCustomAlertView * instance;
 
 @interface GLCustomAlertView ()

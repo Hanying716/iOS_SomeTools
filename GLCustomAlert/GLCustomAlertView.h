@@ -31,6 +31,7 @@ typedef NS_ENUM(NSInteger, GLAlertTransitionStyle)
     
 };
 
+
 //弹出视图的背景类型(0、成功的状态 1、失败的状态 2、充值 3、提现  4、公用的)
 typedef NS_ENUM(NSInteger, GLAlertImageState)
 {
