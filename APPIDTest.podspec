@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint GLCustomAlert.podspec' to ensure this is a
+#  Be sure to run `pod spec lint APPIDTest.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,20 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "GLCustomAlert"
+  s.name         = "APPIDTest"
   s.version      = "0.0.1"
-  s.summary      = "A short description of GLCustomAlert."
+  s.summary      = "A short description of APPIDTest."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "a smart tool"
 
   s.homepage     = "https://github.com/Hanying716/iOS_SomeTools"
-  # 项目主页，不是git地址
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "NO"
+  s.license      = "No"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "APPIDTest/**/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
